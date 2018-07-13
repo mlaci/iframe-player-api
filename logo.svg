@@ -1,0 +1,9 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <mask id="text">
+      <rect x="0" y="0" width="500" height="500" style="fill: white" />
+      <path d="M 166.708 226.822 L 94.468 251.342 L 85.498 254.642 L 94.468 257.802 L 166.708 281.932 L 166.708 317.662 L 50.038 269.272 L 50.038 239.612 L 166.708 191.222 L 166.708 226.822 ZM 306.493 144.692 L 234.643 353.122 L 200.493 353.122 L 272.343 144.692 L 306.493 144.692 ZM 410.417 251.612 L 334.747 226.692 L 334.747 191.222 L 453.397 239.482 L 453.397 269.402 L 334.747 317.792 L 334.747 282.192 L 410.287 256.882 L 418.327 254.242 L 410.417 251.612 Z" transform="matrix(1, 0, 0, 1, 0, 0)" style="fill: black"></path>
+    </mask>
+  </defs>
+  <circle style="fill: rgb(145, 205, 123); fill: rgb(255, 172, 20); fill: rgb(122, 163, 205); stroke-width: 0px;" cx="250" cy="250" r="250" mask="url(#text)"></circle>
+</svg>

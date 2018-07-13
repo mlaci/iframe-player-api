@@ -1,0 +1,35 @@
+body {
+    background-color: lightgrey;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main > div {
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.permissions > div{
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.controls > input:placeholder-shown:valid {
+    background-color: #f0f0f0;
+}
+
+.controls > input:valid {
+    background-color: #d5feae;
+}
+
+.controls > input:invalid {
+    background-color: #ffd5cf;
+}
+

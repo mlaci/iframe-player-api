@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Iframe Player API",
+    "version": "0.1.0",
+    "icons": {
+        "48":"icons/logo48.png",
+        "96":"icons/logo96.png"
+    },
+    "page_action": {
+        "default_icon": "icons/logo32.png",
+        "default_title": "Iframe Player API"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "webNavigation",
+        "activeTab"
+    ],
+    "optional_permissions": ["<all_urls>"],
+    "web_accessible_resources": ["content-script.js"],
+    "applications": {
+        "gecko": {
+          "id": "iframe-player-api@mlaci",
+          "strict_min_version": "42.0"
+        }
+    }
+}
